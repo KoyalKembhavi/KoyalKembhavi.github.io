@@ -352,3 +352,83 @@ footer {
   padding: 3rem;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .left {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .japan {
+    display: block;
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: 1rem;
+  }
+
+  .text {
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .hero button {
+    padding: 15px 20px;
+    font-size: 1rem;
+  }
+
+  .blue-section {
+    width: 90%;
+    padding: 40px 20px;
+  }
+
+  .blue-content h1 {
+    font-size: 2rem;
+  }
+
+  .blue-content p {
+    font-size: 1rem;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    align-items: center;
+  }
+
+  .contact-left {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .season-card {
+    height: auto;
+    min-height: 300px;
+  }
+
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
