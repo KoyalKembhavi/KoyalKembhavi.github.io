@@ -27,9 +27,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/pad2cqc.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 
 </head>
-
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+  
+  
 <body>
   <div id="top"></div>
 
@@ -39,8 +46,6 @@
       <div class="left"> Hello Nihon!
         <span class="japan" lang="Japan">日本を探索する</span>
       </div>
-       <input type="checkbox" id="menu-toggle" />
-    <label for="menu-toggle" class="hamburger">&#9776;</label>
       <div class="right">
         <ul>
 
@@ -55,14 +60,14 @@
   <main>
 
     <section class="hero">
-      <h1 class="text">Explore Japan</h1>
-      <span class="tagline">Not Just a Trip — A Storybook Journey Through Japan’s Seasons, Culture, and Soul.</span>
+      <h1 data-aos="fade-up" class="text">Explore Japan</h1>
+      <span data-aos="fade-up" class="tagline">Not Just a Trip — A Storybook Journey Through Japan’s Seasons, Culture, and Soul.</span>
       <button onclick="window.location.href='packages.html'">Get Started</button>
     </section>
     <section class="seasons" style="padding-bottom: 4rem;">
-      <h2>Explore Japan by Season</h2>
+      <h2 data-aos="fade-up">  Explore Japan by Season</h2>
       <div class="season-grid">
-        <div class="season-card spring">
+        <div  data-aos="fade-up" class="season-card spring">
           <a href="./spring.html">🌸 Spring</a>
           <ul>
             <li>Cherry Blossoms in Kyoto</li>
@@ -70,7 +75,7 @@
             <li>Mount Yoshino, Nara</li>
           </ul>
         </div>
-        <div class="season-card summer">
+        <div data-aos="fade-up" class="season-card summer">
           <a href="./summer.html">🌞 Summer</a>
           <ul>
             <li>Okinawa Beaches</li>
@@ -78,7 +83,7 @@
             <li>Mount Fuji Climbing</li>
           </ul>
         </div>
-        <div class="season-card autumn">
+        <div data-aos="fade-up" class="season-card autumn">
           <a href="./autumn.html">🍁 Autumn</a>
           <ul>
             <li>Tofukuji Temple, Kyoto</li>
@@ -86,7 +91,7 @@
             <li>Daisetsuzan, Hokkaido</li>
           </ul>
         </div>
-        <div class="season-card winter">
+        <div data-aos="fade-up" class="season-card winter">
           <a href="./winter.html">❄️ Winter</a>
           <ul>
             <li>Snow Festival, Sapporo</li>
@@ -98,9 +103,9 @@
     </section>
 
     <section class="blue-section">
-      <div class="blue-content">
+      <div data-aos="fade-up" class="blue-content">
         <h1>Echoes of the Japan</h1>
-        <p>
+        <p data-aos="fade-up">
           Japan is a land of breathtaking contrasts, where serene mountains, lush forests,
           and vibrant coastlines come together in harmony. From the iconic cherry blossoms
           of spring to the fiery maple leaves of autumn, Japan’s seasons paint its landscapes
