@@ -1,3 +1,15 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -77,6 +89,7 @@ nav ul li a:hover {
   color: rgb(2, 38, 62);
   font-size: 6.25rem;
   align-items: center;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .summary-section {
@@ -84,6 +97,7 @@ nav ul li a:hover {
   padding: 5rem 3.75rem;
   text-align: center;
   position: relative;
+  
 }
 
 .summary-section h2 {
@@ -91,6 +105,7 @@ nav ul li a:hover {
   color: rgb(2, 38, 62);
   margin-bottom: 3.75rem; 
   letter-spacing: 0.09375rem; 
+  animation: fadeIn 1.2s ease-in-out
 }
 
 .summary-section p {
@@ -99,6 +114,7 @@ nav ul li a:hover {
   margin: 0 auto;
   line-height: 1.8;
   color: rgb(2, 38, 62);
+  animation: fadeIn 1.2s ease-in-out
 }
 
 .back-to-top {
@@ -169,6 +185,10 @@ footer {
   .text {
     font-size: 2.5rem;
   }
+  .reveal {
+    opacity: 1;
+    transform: translateY(0);
+}
 
   .summary-section {
     padding: 3.125rem 1.25rem;
@@ -176,10 +196,12 @@ footer {
 
   .summary-section h2 {
     font-size: 2.2rem;
+    animation: fadeIn 1.2s ease-in-out
   }
 
   .summary-section p {
     font-size: 1rem;
+    animation: fadeIn 1.2s ease-in-out
   }
 
   .back-to-top {
