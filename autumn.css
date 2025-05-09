@@ -200,3 +200,11 @@ footer {
     padding: 3rem;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+
+    .back-to-top {
+    bottom: 20px;
+    right: 20px;
+  }
+}
