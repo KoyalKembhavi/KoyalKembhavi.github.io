@@ -428,9 +428,11 @@ footer {
     bottom: 20px;
     right: 20px;
   }
-}
 
-html, body {
+  html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+}
+
+
