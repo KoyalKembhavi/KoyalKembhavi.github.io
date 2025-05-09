@@ -30,6 +30,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 6.25rem;
+  width: 100%;
   background-color: rgb(194, 221, 234);
 }
 
@@ -253,6 +254,7 @@ nav ul li a:hover {
 }
 
 .contact-section {
+  width: 100%;
   background-color: #ace2f4;
   display: flex;
   justify-content: space-around;
