@@ -1,4 +1,14 @@
-* {
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}* {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -17,6 +27,7 @@ header h1 {
     font-size: 3rem;
     margin-bottom: 10px;
     text-decoration: underline;
+    animation: fadeIn 1.2s ease-in-out;
 
 }
 
@@ -43,6 +54,12 @@ p {
 section {
     padding: 40px 20px;
     border-bottom: 1px solid #c79090;
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.reveal {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 h2 {
@@ -55,7 +72,7 @@ h2 {
 h3 {
     font-style: italic;
     font-size: 1.5rem;
-
+    animation: fadeIn 1.2s ease-in-out;
 }
 
 #spring {
@@ -76,6 +93,7 @@ h3 {
     max-width: 90%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .button-container {
@@ -123,10 +141,14 @@ footer {
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.15s;
+    transition: background-color 0.15s;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
 }
 
 .button-container a button:hover {
     background-color: #ee689d;
+    transform: scale(1.05);
 }
 
 .button-container a button:active {
@@ -152,10 +174,14 @@ body {
     transition: background-color 0.15s;
     margin-bottom: 20px;
     margin-left: 20px;
+    transition: background-color 0.15s;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
 }
 
 .home :hover {
     background-color: #ee689d;
+    transform: scale(1.05);
 }
 
 .home:active {
