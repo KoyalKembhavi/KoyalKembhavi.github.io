@@ -1,4 +1,4 @@
-* {
+/** {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -206,4 +206,200 @@ footer {
 
 html, body {
   overflow-x: hidden;
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
+
+body {
+  background-image: url('./images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.left {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: rgb(2, 35, 50);
+}
+
+.japan {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.4rem;
+  color: rgb(28, 77, 99);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6.25rem;
+  background-color: rgb(194, 221, 234);
+}
+
+nav ul {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 1.4375rem; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(16, 111, 155);
+}
+
+nav ul li a:hover {
+  color: rgb(9, 71, 99);
+  font-size: 1.3rem;
+}
+
+.image1 img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.port {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.text {
+  font-family: "playfair-display", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: rgb(2, 38, 62);
+  font-size: 6.25rem;
+  align-items: center;
+}
+
+.summary-section {
+  background-color: #ace2f499;
+  padding: 5rem 3.75rem;
+  text-align: center;
+  position: relative;
+}
+
+.summary-section h2 {
+  font-size: 3rem;
+  color: rgb(2, 38, 62);
+  margin-bottom: 3.75rem; 
+  letter-spacing: 0.09375rem; 
+}
+
+.summary-section p {
+  font-size: 1.4rem;
+  max-width: 56.25rem; 
+  margin: 0 auto;
+  line-height: 1.8;
+  color: rgb(2, 38, 62);
+}
+
+.back-to-top {
+  font-weight: bolder;
+  position: fixed;
+  bottom: 2.5rem; 
+  right: 2.5rem; 
+  background-color: #032734;
+  padding: 0.3125rem 0.3125rem;
+  border-radius: 0.5rem; 
+  display: block;
+  z-index: 1000;
+  transition: background-color 0.15s;
+}
+
+.back-to-top img {
+  height: 2.5rem; 
+  width: 2.5rem;  
+}
+
+html:has(:target) .back-to-top {
+  display: block;
+}
+
+.back-to-top:hover {
+  background-color: #175368;
+}
+
+.back-to-top:active {
+  background-color: #268cb1;
+}
+
+footer {
+  background-color: #021116;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+}
+
+
+@media (max-width: 48rem) { 
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0.625rem 0; 
+  }
+
+  .text {
+    font-size: 2.5rem;
+    padding: 0 1rem;
+  }
+
+  .summary-section {
+    padding: 3.125rem 1.25rem;
+  }
+
+  .summary-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .summary-section p {
+    font-size: 1rem;
+  }
+
+  .port {
+    padding: 2rem 1rem;
+  }
+
+  .back-to-top {
+    bottom: 1.25rem; 
+    right: 1.25rem; 
+    padding: 0.25rem;
+  }
+
+  .back-to-top img {
+    height: 2.1875rem; 
+    width: 2.1875rem; 
+  }
+}
+
+
+html, body {
+  overflow-x: hidden;
+}
+
