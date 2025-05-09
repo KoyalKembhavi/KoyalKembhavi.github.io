@@ -29,7 +29,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100px;
+  height: 6.25rem;
   background-color: rgb(194, 221, 234);
 }
 
@@ -41,7 +41,7 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  margin: 0 23px;
+  margin: 0 1.438rem;
 }
 
 nav ul li a {
@@ -55,8 +55,8 @@ nav ul li a:hover {
 }
 
 .image1 img {
-  height: 80px;
-  width: 80px;
+  height: 5rem;
+  width: 5rem;
 }
 
 .hero {
@@ -77,24 +77,24 @@ nav ul li a:hover {
   font-style: italic;
   font-size: 4rem;
   color: rgb(2, 38, 62);
-  font-size: 100px;
+  font-size: 6.25rem;
 }
 
 .tagline {
   font-family: "Jost", sans-serif;
-  font-size: 20px;
-  margin-top: 5px;
+  font-size: 1.25rem;
+  margin-top: 0.313rem;
 }
 
 .hero button {
   background-color: rgb(8 48 67);
   color: white;
-  margin-top: 50px;
-  padding: 20px 25px;
+  margin-top: 3.125rem;
+  padding: 1.25rem 1.563rem;
   border: none;
   font-size: large;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   transition: background-color 0.15s;
 }
 
@@ -128,13 +128,13 @@ nav ul li a:hover {
 .season-card {
   background-color: white;
   padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  box-shadow: 0 0 0.938rem rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
 
 .season-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-0.313rem);
 }
 
 .season-card a {
@@ -156,30 +156,30 @@ nav ul li a:hover {
 
 
 .spring {
-  border-left: 5px solid #ff69b4;
+  border-left: 0.313rem solid #ff69b4;
 }
 
 .summer {
-  border-left: 5px solid #ffa500;
+  border-left: 0.313rem solid #ffa500;
 }
 
 .autumn {
-  border-left: 5px solid #d2691e;
+  border-left: 0.313rem solid #d2691e;
 }
 
 .winter {
-  border-left: 5px solid #ace2f4;
+  border-left: 0.313rem solid #ace2f4;
 }
 
 .season-card {
   color: white;
   padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  box-shadow: 0 0 0.938rem rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 18.75rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -223,32 +223,32 @@ nav ul li a:hover {
 
 .blue-section {
   background-color: rgb(10 39 52 / 86%);
-  padding: 100px 0;
+  padding: 6.25rem 0;
   display: flex;
   justify-content: center;
   width: 80%;
   margin: 0 auto;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 4.375rem;
+  margin-bottom: 4.375rem;
 }
 
 
 .blue-section {
-  max-width: 800px;
+  max-width: 50rem;
   font-family: 'Segoe UI', sans-serif;
   color: #F5F5F5;
   text-align: center;
-  padding: 70px;
+  padding: 4.375rem;
 }
 
 .blue-content h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-family: "Roboto", sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .blue-content p {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.8;
 }
 
@@ -257,8 +257,8 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 60px 80px;
-  gap: 40px;
+  padding: 3.75rem 5rem;
+  gap: 2.5rem;
 }
 
 .contact-left {
@@ -268,34 +268,34 @@ nav ul li a:hover {
 
 .contact-left h1 {
   font-size: 2.5rem;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .contact-left p {
   font-size: 1.4rem;
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 .contact-form {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .contact-form input,
 .contact-form textarea {
   background-color: #ace2f4;
-  border: 1px solid #032734;
-  padding: 10px;
+  border: 0.063rem solid #032734;
+  padding: 0.625rem;
   font-size: 1rem;
   outline: none;
 }
 
 .contact-form button {
-  width: 100px;
-  padding: 10px;
-  border: 1px solid #032734;
+  width: 6.25rem;
+  padding: 0.625rem;
+  border: 0.063rem solid #032734;
   background: transparent;
   color: #032734;
   font-weight: bold;
@@ -316,19 +316,19 @@ nav ul li a:hover {
 .back-to-top {
   font-weight: bolder;
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 2.5rem;
+  right: 2.5rem;
   background-color: #032734;
-  padding: 5px 5px;
-  border-radius: 8px;
+  padding: 0.313rem 0.313rem;
+  border-radius: 0.5rem;
   display: block;
   z-index: 1000;
   transition: background-color 0.15s;
 }
 
 .back-to-top img {
-  height: 40px;
-  width: 40px;
+  height:  2.5rem;
+  width:  2.5rem;
 }
 
 
