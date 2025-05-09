@@ -97,6 +97,7 @@ nav ul li a:hover {
   font-family: "Jost", sans-serif;
   font-size: 1.25rem;
   margin-top: 0.313rem;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .hero button {
@@ -130,6 +131,7 @@ nav ul li a:hover {
   font-weight: bold;
   font-size: 2.5rem;
   margin-bottom: 3rem;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .season-grid {
@@ -155,6 +157,7 @@ nav ul li a:hover {
   text-decoration: none;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+   animation: fadeIn 1.2s ease-in-out;
 }
 
 .season-card ul {
@@ -165,6 +168,7 @@ nav ul li a:hover {
 .season-card li {
   margin: 0.5rem 0;
   font-size: 1rem;
+animation: fadeIn 1.2s ease-in-out;
 }
 
 
@@ -217,21 +221,25 @@ nav ul li a:hover {
 .spring {
   background-image: url('./images/spring.jpg');
   /* 🌸  */
+     animation: fadeIn 1.5s ease-in-out;
 }
 
 .summer {
   background-image: url('./images/summer.jpg');
   /* 🌞 */
+     animation: fadeIn 1.5s ease-in-out;
 }
 
 .autumn {
   background-image: url('./images/autumn.jpg');
   /* 🍁 */
+     animation: fadeIn 1.5s ease-in-out;
 }
 
 .winter {
   background-image: url('./images/winter.jpg');
   /* ❄️ */
+     animation: fadeIn 1.5s ease-in-out;
 }
 
 .blue-section {
@@ -252,17 +260,20 @@ nav ul li a:hover {
   color: #F5F5F5;
   text-align: center;
   padding: 4.375rem;
+     animation: fadeIn 1.2s ease-in-out;
 }
 
 .blue-content h1 {
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
   margin-bottom: 1.875rem;
+     animation: fadeIn 1.2s ease-in-out;
 }
 
 .blue-content p {
   font-size: 1.125rem;
   line-height: 1.8;
+     animation: fadeIn 1.2s ease-in-out;
 }
 
 .contact-section {
