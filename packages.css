@@ -83,10 +83,10 @@ nav ul li a:hover {
   width: 80px;
 }
 h2{
-    animation: fadeIn 1.2s ease;
+    animation: fadeIn 1.5s ease;
 }
 p{
-    animation: fadeIn 1.2s ease;
+    animation: fadeIn 1.5s ease;
 }
 .packs{
     font-family: 'Poppins', sans-serif;
@@ -115,7 +115,7 @@ p{
   font-size: 4rem;
   color: rgb(2, 38, 62);
   font-size: 100px;
-    animation: fadeIn 0.2s ease;
+    animation: fadeIn 1.5s ease;
 }
 
 .container {
