@@ -406,3 +406,9 @@ footer {
   .tagline {
     font-size: 1rem;
   }
+
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+  }
+}
